@@ -11,6 +11,6 @@ Na segunda aba temos os personagens que podemos inicialmente ver: nome, altura e
 E na terceira e ultima página temos naves, onde podemos ver nomes, tripulação e passageiros. Podemos filtrar por Tamanho, tripulação ou passageiros.
 
 
-O projeto foi feito no Visual Studio 2022, um Aplicativo Web ASP.NET Core na linguagem de c#. Usei apenas um pacote NuGet para fazer o código que foi o Newtonsoft.Json -> Para baixar vá em ferramentas na parte superior da tela -> Gerenciador de Pacotes do NuGet -> Gerenciar Pacotes do NuGet para a Solução... -> Procurar -> pesquiser elo pacote Newtonsoft.Json e instale na versão mais atualizada mesmo.
+O projeto foi feito no Visual Studio 2022, um Aplicativo Web ASP.NET Core na linguagem de c#. Usei apenas um pacote NuGet para fazer o código que foi o Newtonsoft.Json -> Para baixa-lo(caso quando abrir o projeto e não tiver) vá em ferramentas na parte superior da tela -> Gerenciador de Pacotes do NuGet -> Gerenciar Pacotes do NuGet para a Solução... -> Procurar -> pesquiser elo pacote Newtonsoft.Json e instale na versão mais atualizada mesmo.
 
 Um Ctrl + Shift + B para buildar o código e verificar se não tem erro e depois um Ctrl + F5 para rodar e testar o site.
