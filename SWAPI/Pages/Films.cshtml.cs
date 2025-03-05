@@ -17,6 +17,7 @@ namespace SWAPI.Pages
         public List<Film> Films { get; set; } = new List<Film>();
         public Film CurrentFilm { get; set; }
         public int CurrentFilmIndex { get; set; } = 0;
+        public int TotalFilms => Films.Count;
 
         public async Task OnGetAsync(int? id)
         {
