@@ -1,0 +1,97 @@
+/* Estilos para o body */
+.custom-body {
+    background-image: url('/images/fundo-universo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #cccccc; /* Cor do texto (cinza claro) */
+}
+
+    /* Garante que todos os elementos dentro do body herdem a cor cinza */
+    .custom-body, .custom-body * {
+        color: #cccccc; /* Cor do texto (cinza claro) */
+    }
+
+/* Estilos para o header */
+.custom-header {
+    background-image: url('/images/fundo-de-espaco.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+
+    .custom-header .navbar-brand,
+    .custom-header .nav-link {
+        color: #cccccc !important; /* Cor do texto (cinza claro) */
+    }
+
+        .custom-header .nav-link:hover {
+            color: #999999 !important; /* Cinza médio ao passar o mouse */
+        }
+
+/* Estilos para a lista de personagens */
+.custom-body .list-group {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-body .list-group-item {
+    background-color: transparent;
+    color: #cccccc; /* Cor do texto (cinza claro) */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+    .custom-body .list-group-item.active {
+        background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+        border-color: rgba(255, 255, 255, 0.2); /* Bordas semi-transparentes */
+        color: #cccccc; /* Cor do texto (cinza claro) */
+    }
+
+    .custom-body .list-group-item:hover {
+        background-color: rgba(255, 255, 255, 0.05); /* Fundo semi-transparente ao passar o mouse */
+        color: #cccccc; /* Cor do texto (cinza claro) */
+    }
+
+/* Estilos para o card */
+.custom-body .custom-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Bordas semi-transparentes */
+    color: #cccccc; /* Cor do texto (cinza claro) */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilos para a lista */
+.custom-body .custom-list {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding-left: 0; /* Remove o padding padrão */
+}
+
+    .custom-body .custom-list .custom-list-item {
+        padding: 8px; /* Espaçamento interno */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Bordas semi-transparentes */
+    }
+
+        .custom-body .custom-list .custom-list-item:last-child {
+            border-bottom: none; /* Remove a borda do último item */
+        }
+
+/* Estilos para os botões */
+.custom-body .btn {
+    color: #cccccc; /* Cor do texto (cinza claro) */
+    border-color: #cccccc; /* Cor da borda */
+}
+
+.custom-body .btn-primary {
+    background-color: rgba(0, 123, 255, 0.8); /* Fundo semi-transparente */
+}
+
+.custom-body .btn-secondary {
+    background-color: rgba(108, 117, 125, 0.8); /* Fundo semi-transparente */
+}
+
+.custom-body .btn-info {
+    background-color: rgba(23, 162, 184, 0.8); /* Fundo semi-transparente */
+}
